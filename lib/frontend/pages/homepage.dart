@@ -25,6 +25,7 @@ class Homepage extends StatelessWidget {
     // here you pass data to the data source class
     roww tb = roww(data: tt.allUsers);
     //
+
     return Scaffold(
       appBar: AppBar(
         title: Text('crud aap'),
@@ -75,39 +76,37 @@ class Homepage extends StatelessWidget {
                 //   source: tb,
                 //   rowsPerPage: 2,
                 // ));
-                return Expanded(
-                  child: ListView.builder(
-                    itemCount: tt.allUsers.length,
-                    itemBuilder: (BuildContext context, int index) {
-                      // return ListTile(
-                      //   title: Text(tt.allUsers[index]['name']),
-                      //   subtitle: ElevatedButton(
-                      //       onPressed: () async {
-                      //         await dd.deleted(tt.usersid[index]);
-                      //         await tt.getData();
-                      //       },
-                      //       child: Text('delete')),
-                      // );
-                      return DataTable(columns: [
-                        DataColumn(label: Text('name')),
-                        DataColumn(label: Text('age')),
-                        DataColumn(label: Text('funcs')),
-                      ], rows: [
-                        DataRow(cells: [
-                          DataCell(Text(tt.allUsers[index]['name'])),
-                          DataCell(Text(tt.allUsers[index]['age'])),
-                          DataCell(ElevatedButton(
-                              onPressed: () async {
-                                await dd.deleted(tt.usersid[index]);
-                                await tt.getData();
-                              },
-                              child: Text('delete')))
-                        ])
-                      ]);
-                    },
-                  ),
-                );
-              })
+
+                // return ListTile(
+                //   title: Text(tt.allUsers[index]['name']),
+                //   subtitle: ElevatedButton(
+                //       onPressed: () async {
+                //         await dd.deleted(tt.usersid[index]);
+                //         await tt.getData();
+                //       },
+                //       child: Text('delete')),
+                // );
+                return DataTable(
+                    columns: [
+                      DataColumn(label: Text('name')),
+                      DataColumn(label: Text('age')),
+                      DataColumn(label: Text('funcs')),
+                    ],
+                    rows: tt.allUsers
+                        .map<DataRow>((e) => DataRow(cells: [
+                              DataCell(Text(e['name'])),
+                              DataCell(Text(e['age'])),
+                              DataCell(
+                                ElevatedButton(
+                                    onPressed: () async {
+                                      await dd.deleted(tt.usersid[1]);
+                                      await tt.getData();
+                                    },
+                                    child: Text('delete')),
+                              ),
+                            ]))
+                        .toList());
+              }),
         ],
       ),
     );

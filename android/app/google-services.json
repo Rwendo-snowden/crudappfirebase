@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "888630957914",
+    "project_id": "nmtt-25391",
+    "storage_bucket": "nmtt-25391.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888630957914:android:726bddc4c3a397cfd84563",
+        "android_client_info": {
+          "package_name": "com.example.crudappfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888630957914-cb3c83l4p5sknjn4gnu70tfmic3tglp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB5SKGLrizE4FeHwEvIJ75FceROfVe-Fs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888630957914-cb3c83l4p5sknjn4gnu70tfmic3tglp8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "888630957914-sfme60t3qt42qoroo28ufno4sii9v65e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fire.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888630957914:android:572bd6530846a4ecd84563",
+        "android_client_info": {
+          "package_name": "com.example.fire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888630957914-cb3c83l4p5sknjn4gnu70tfmic3tglp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB5SKGLrizE4FeHwEvIJ75FceROfVe-Fs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888630957914-cb3c83l4p5sknjn4gnu70tfmic3tglp8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "888630957914-sfme60t3qt42qoroo28ufno4sii9v65e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fire.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888630957914:android:00fb8808465a03b7d84563",
+        "android_client_info": {
+          "package_name": "com.rwendo.myshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888630957914-cb3c83l4p5sknjn4gnu70tfmic3tglp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB5SKGLrizE4FeHwEvIJ75FceROfVe-Fs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888630957914-cb3c83l4p5sknjn4gnu70tfmic3tglp8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "888630957914-sfme60t3qt42qoroo28ufno4sii9v65e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fire.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
